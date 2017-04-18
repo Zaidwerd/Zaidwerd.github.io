@@ -110,8 +110,8 @@
   background-color: #FFF;
 }
 
-.projectName{
-  font-family: 'Cutive Mono', monospace;
+.projectName, .triangle{
+  font-family: 'Bungee Hairline', cursive;
 }
 
 .link{
@@ -121,16 +121,7 @@
   display: inline-block;
   margin: 0 2%;
   float: right;
-}
-
-.linkImage:hover{
-  height: 60px;
-  width: 60px;
-}
-
-.linkImage{
-  height: 50px;
-  width: 50px;
+  font-family: 'Bungee Hairline', cursive;
 }
 
 footer{

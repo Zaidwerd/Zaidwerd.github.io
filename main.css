@@ -1,21 +1,15 @@
 body {
-  height: 800px;
   width: 100%;
   margin: auto 0;
   font-family: 'Bungee Hairline', cursive;
-  background-color: #222;
-  background: -webkit-linear-gradient(#222, #455A64);
-  background: -o-linear-gradient(#222, #455A64);
-  background: -moz-linear-gradient(#222, #455A64);
-  background: linear-gradient(#222, #455A64);
-  background-repeat: no-repeat;
+  background-color: #455A64;
+
 }
 
 .background{
-  height: 100%;
   width: 100%;
-  margin: 0;
-  background-color: #222;
+  margin: auto 0;
+/*  background-color: #222;*/
   background: -webkit-linear-gradient(#222, #455A64);
   background: -o-linear-gradient(#222, #455A64);
   background: -moz-linear-gradient(#222, #455A64);
@@ -30,7 +24,6 @@ h2, p {
 }
 
 h2 {
-  position:relative;
   margin:0px;
   font-size:10em;
   line-height:90%;
@@ -41,7 +34,6 @@ h2 {
 }
 
 p {
-  position:relative;
   width:auto;
   margin:5% auto;
   text-align:center;
