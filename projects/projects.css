@@ -14,7 +14,7 @@
   height: 300px;
   width: 500px;
   background-color: #CFD8DC;
-  margin: 20px;
+  margin: 50px;
   background-size: cover;
   background-position: center;
 
@@ -108,19 +108,33 @@
 
 .projectHeader {
   background-color: #FFF;
+  height:50px;
+  width: 100%;
+  position: fixed;
 }
 
-.projectName, .triangle{
+h1.projectName{
+  width: 50%;
+  display: block;
+  float: left;
+  font-size: 20px;
   font-family: 'Bungee Hairline', cursive;
 }
 
-.link{
+nav{
   height: 50px;
-  width: 50px;
-  background-color: #FFF;
-  display: inline-block;
-  margin: 0 2%;
+  width: 50%;
+  display: block;
   float: right;
+}
+
+.link{
+/*  height: 50px;
+  width: 100px;
+  background-color: #FFF;*/
+  display: inline-block;
+  float: right;
+  margin: 2%;
   font-family: 'Bungee Hairline', cursive;
 }
 
