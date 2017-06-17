@@ -11,10 +11,10 @@
 }
 
 .project{
-  height: 300px;
-  width: 500px;
+  height: 10em;
+  width: 100%;
   background-color: #CFD8DC;
-  margin: 50px;
+  margin: 2em;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -22,6 +22,7 @@
 
 .p1a{
   background-image: url(../screenshots/step-forward.png);
+  margin-top: 50px;
 }
 .p1b{
   background-image: url(../screenshots/stayathome.png);
@@ -34,12 +35,12 @@
 }
 
 .p-hidden{
-  height: 300px;
-  width: 500px;
+  height: 10em;
+  width: 100%;
   z-index: 1;
   opacity: 0;
   background-color: black;
-  font-size: 25px;
+  font-size: 1em;
 }
 
 .p-hidden:hover {
@@ -55,7 +56,6 @@
   height: 20px;
   width: 60px;
   padding: 5px;
-/*  padding: 2%;*/
   text-align: center;
   background-color: #FF5722;
   background: -webkit-linear-gradient(#FF5722, #FF8A65);
@@ -75,7 +75,7 @@
 
 /*HEADER*/
 
-.projectHeader {
+.navHeader {
   background-color: #FFF;
   height:50px;
   width: 100%;
@@ -83,7 +83,7 @@
   z-index: 2;
 }
 
-h1.projectName{
+h1.name{
   width: 50%;
   display: block;
   float: left;
