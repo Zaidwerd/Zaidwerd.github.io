@@ -17,23 +17,23 @@
   margin: 50px;
   background-size: cover;
   background-position: center;
-
+  text-align: center;
 }
 
 .p1a{
-  background-image: url(../screenshots/sushime-gameplay.png);
-}
-.p1b{
   background-image: url(../screenshots/step-forward.png);
 }
-.p2a{
+.p1b{
   background-image: url(../screenshots/stayathome.png);
+}
+.p2a{
+  background-image: url(../screenshots/sushime-gameplay.png);
 }
 .p2b{
   background-image: url(../screenshots/robotrivalry-startpage.png);
 }
 
-.p1a-hidden{
+.p-hidden{
   height: 300px;
   width: 500px;
   z-index: 1;
@@ -42,67 +42,36 @@
   font-size: 25px;
 }
 
-.p1a-hidden:hover {
+.p-hidden:hover {
   background-color: black;
-  opacity: 0.8;
-  }
-
-.p1b-hidden{
-  height: 300px;
-  width: 500px;
-  z-index: 1;
-  opacity: 0;
-  background-color: black;
-  font-size: 25px;
+  opacity: 0.9;
 }
 
-.p1b-hidden:hover {
-  background-color: black;
-  opacity: 0.8;
-  }
-
-.p1Text{
-  height: 250px;
-  width: 250px;
-  margin: 10px 20px;
-  font-family: 'Source Code Pro', monospace;
+.projectlink {
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  background-color: blue;
+  height: 20px;
+  width: 60px;
+  padding: 5px;
+/*  padding: 2%;*/
+  text-align: center;
+  background-color: #FF5722;
+  background: -webkit-linear-gradient(#FF5722, #FF8A65);
+  background: -o-linear-gradient(#FF5722, #FF8A65);
+  background: -moz-linear-gradient(#FF5722, #FF8A65);
+  background: linear-gradient(#FF5722, #FF8A65);
+  background-repeat: no-repeat;
 }
 
-.p2Text{
-  height: 200px;
-  width: 250px;
-  margin: 10px 20px;
-  font-family: 'Source Code Pro', monospace;
+.projectlink:hover{
+  background: -webkit-linear-gradient(#FF8A65, #FFCCBC);
+  background: -o-linear-gradient(#FF8A65, #FFCCBC);
+  background: -moz-linear-gradient(#FF8A65, #FFCCBC);
+  background: linear-gradient(#FF8A65, #FFCCBC);
+  background-repeat: no-repeat;
 }
-
-.p2a-hidden{
-  height: 300px;
-  width: 500px;
-  z-index: 1;
-  opacity: 0;
-  background-color: black;
-  font-size: 25px;
-}
-
-.p2a-hidden:hover {
-  background-color: black;
-  opacity: 0.8;
-  }
-
-.p2b-hidden{
-  height: 300px;
-  width: 500px;
-  z-index: 1;
-  opacity: 0;
-  background-color: black;
-  font-size: 25px;
-}
-
-.p2b-hidden:hover {
-  background-color: black;
-  opacity: 0.8;
-  }
-
 
 /*HEADER*/
 
@@ -111,6 +80,7 @@
   height:50px;
   width: 100%;
   position: fixed;
+  z-index: 2;
 }
 
 h1.projectName{
@@ -128,7 +98,7 @@ nav{
   float: right;
 }
 
-.link{
+.navLink{
 /*  height: 50px;
   width: 100px;
   background-color: #FFF;*/
@@ -136,6 +106,11 @@ nav{
   float: right;
   margin: 2%;
   font-family: 'Bungee Hairline', cursive;
+  font-size: 18px;
+}
+
+.navLink:hover {
+  color: red;
 }
 
 footer{
@@ -146,6 +121,7 @@ footer{
 p{
   color: #FFF;
   text-align: center;
+  margin: 0;
 }
 
 a{
